@@ -1,17 +1,11 @@
-import Hero from './Hero';
-import WeekSpecials from './WeekSpecials';
-import Testimonials from './Testimonials';
-import OurStory from './OurStory';
+import './index.css';
 
-const Home = () => {
+const NotFound = () => {
   return (
-    <>
-      <Hero />
-      <WeekSpecials />
-      <Testimonials />
-      <OurStory />
-    </>
+    <div className="container page-not-found">
+      <h2>Page not found</h2>
+    </div>
   );
 };
 
-export default Home;
+export default NotFound;
